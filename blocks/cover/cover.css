@@ -2,13 +2,19 @@
     /* min-width: 320px;
     max-width: 1184px; */
     min-height: 740px;
-    margin: 0 auto;
+    margin: 0 48px;
     margin-top: 92px;
     aspect-ratio: 1/0, 625;
 }
 
 
-
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 0;
+        margin-top: 92px;
+        min-height: 640px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .cover {
