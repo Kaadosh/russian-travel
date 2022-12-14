@@ -29,11 +29,6 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        /* min-height: 1042px;
-        grid-template-columns: 1fr;
-        grid-template-columns: minmax(min-content, max-content);
-        gap: 32px;
-        margin-bottom: 50px; */
         display: block;
         margin-bottom: 50px;
 
