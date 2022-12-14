@@ -8,11 +8,10 @@
   font-size: 18px;
   line-height: 163%;
   box-sizing: border-box;
+
 }
 
-.place__paragraph-text:nth-child(2) {
-  margin-bottom: 0;
-}
+
 
 .place__paragraph-text:last-child {
   margin-bottom: 0;
@@ -22,7 +21,7 @@
   .place__paragraph-text {
     max-width: 352px;
     font-size: 16px;
-    padding-right: 24px;
+    /* padding-right: 24px; */
     margin-bottom: 25px;
   }
 }
@@ -30,6 +29,7 @@
 @media screen and (max-width: 320px) {
   .place__paragraph-text {
     max-width: 288px;
+    line-height: 160%;
     margin-left: 16px;
     margin-right: 16px;
   }

@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 600px auto / 1fr;
-        grid-template-rows: 1fr;
+        /* grid-template-columns: 600px auto / 1fr;
+        grid-template-rows: 1fr; */
         gap: 48px 28px;
         margin-bottom: 73px;
     }
@@ -29,11 +29,14 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        min-height: 1042px;
-        /* grid-template-columns: 1fr; */
+        /* min-height: 1042px;
+        grid-template-columns: 1fr;
         grid-template-columns: minmax(min-content, max-content);
         gap: 32px;
+        margin-bottom: 50px; */
+        display: block;
         margin-bottom: 50px;
+
 
     }
 }
