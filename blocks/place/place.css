@@ -5,6 +5,8 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
     margin: 0 auto;
     margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
 }
 
 .place:last-child {
@@ -20,8 +22,8 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        /* grid-template-columns: 600px auto / 1fr;
-        grid-template-rows: 1fr; */
+        grid-template-columns: 600px auto / 1fr;
+        grid-template-rows: 1fr;
         gap: 48px 28px;
         margin-bottom: 73px;
     }

@@ -3,13 +3,12 @@
   background-color: #2A2C2F;
   font-family: 'Inter', 'Arial', sans-serif;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 
 
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
   }
@@ -25,4 +24,4 @@
   .page {
     max-width: 320px;
   }
-}
+} */
